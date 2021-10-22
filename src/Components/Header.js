@@ -37,9 +37,11 @@ function Header() {
     <a href="/" id="anchor" onClick={Scroll}><h1>Creto.in</h1></a>
     </div>
     <div className="anchors">
-    <a href="#service" onClick={Scroll}>Services</a>
-    <a href="#" onClick={Scroll}>Contact us</a>
-    <a href="#team" onClick={Scroll}>Team</a>
+    <a href="#service" onClick={Scroll}>About</a>
+    <a href="#" onClick={Scroll}>Products</a>
+    <a href="#team" onClick={Scroll}>Contact</a>
+    <a href="#team" onClick={Scroll}>Blog</a>
+    <a href="#team" onClick={Scroll}>Login</a>
     </div>
     <div id="sidebar" className={switchToggle ? "active" : ""} onClick={ToggleBar}>
     <div className="togglebtn">
@@ -49,9 +51,9 @@ function Header() {
     </div>
       <ul>
         <li><a href="#head" onClick={Scroll} >Home</a></li>
-        <li><a href="#service" onClick={Scroll}>Web Design</a></li>
-        <li><a href="#service" onClick={Scroll}>Crypto</a></li>
-        <li><a href="#service" onClick={Scroll}>Music</a></li>
+        <li><a href="#service" onClick={Scroll}>About Us</a></li>
+        <li><a href="#service" onClick={Scroll}>Products</a></li>
+        <li><a href="#service" onClick={Scroll}>Login</a></li>
       </ul>
       </div>
     </div>
