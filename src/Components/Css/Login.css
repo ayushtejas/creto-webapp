@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200,400&display=swap');
+.form{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.form-container{
+  padding: 2rem;
+  background: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 25px;
+  width: 70%;
+  align-items: center;
+  margin: auto;
+}
+
+.login-h1{
+  text-align: left;
+  padding-left: 13rem;
+}
+
+.login-h1 h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+.loginform{
+  width: 50%;
+  align-items: center;
+}
+
+.input-form{
+  padding: 5%;
+}
+
+.input-form input{
+  font-family: 'Roboto', sans-serif;
+  width: 80%;
+  height: 2rem;
+  padding: 2%;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border: none;
+  border-bottom: 2px solid #000000;
+  transition-duration: 0.4s;
+}
+
+.input-form input:focus-within{
+  outline: none;
+  border-bottom: 2px yellow solid;
+  transform: scale(1.2, 1.1);
+}
+
+.login-btn{
+  padding: 5%;
+  margin-right: 5%;
+}
+
+.login-btn button{
+  padding: 2% 5%;
+  border: none;
+  background: var(--main-color);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  font-size: 1rem;
+  transition: all 0.4s ease;
+}
+
+.login-btn button:hover {
+  letter-spacing: .2rem;
+}
+
+.oAUth-btn{
+
+}
