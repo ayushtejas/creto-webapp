@@ -41,7 +41,7 @@ function Header() {
     <a href="#" onClick={Scroll}>Products</a>
     <a href="#team" onClick={Scroll}>Contact</a>
     <a href="#team" onClick={Scroll}>Blog</a>
-    <a href="#team" onClick={Scroll}>Login</a>
+    <a href="/login" onClick={Scroll}>Login</a>
     </div>
     <div id="sidebar" className={switchToggle ? "active" : ""} onClick={ToggleBar}>
     <div className="togglebtn">
