@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200,400&display=swap');
+
+*{
+
+
+}
 .form{
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -8,14 +13,16 @@
   background: #ffffff;
   border: 2px solid #ffffff;
   border-radius: 25px;
-  width: 70%;
+  width: 35%;
   align-items: center;
+  text-align: center;
   margin: auto;
+  /* margin-left: 50%; */
 }
 
 .login-h1{
-  text-align: left;
-  padding-left: 13rem;
+  text-align: center;
+  /* padding-left: 13rem; */
 }
 
 .login-h1 h1{
@@ -25,12 +32,15 @@
 }
 
 .loginform{
-  width: 50%;
+  /* width: 50%; */
   align-items: center;
+  /* padding-left: 50%; */
+
 }
 
 .input-form{
   padding: 5%;
+  /* margin-left: 50%; */
 }
 
 .input-form input{
@@ -53,12 +63,15 @@
 
 .login-btn{
   padding: 5%;
-  margin-right: 5%;
+  margin-right: auto;
+  text-align: center;
 }
 
 .login-btn button{
   padding: 2% 5%;
   border: none;
+  text-align: center;
+  margin: auto;
   background: var(--main-color);
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -70,6 +83,46 @@
   letter-spacing: .2rem;
 }
 
-.oAUth-btn{
-
+.oAuth-btn{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
+.oAuth-btn ul li {
+  display: inline-block;
+  padding: 2%;
+} 
+.oAuth-btn ul{
+  padding: 0%;
+}
+.oAuth-btn a{
+  font-size: 2rem;
+  
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.oAuth-btn p{
+  display: none;
+  opacity: 0;
+  transition: all 1s linear;
+  overflow: hidden;
+}
+
+.o-btn:hover + p{
+  display: inline;
+  opacity: 1;
+}
+
+.hide{
+  list-style: none;
+}
+

@@ -22,8 +22,10 @@ function LoginForm(){
         </div>
       </div>
       <div className="oAuth-btn">
-        <a href="">< FaGoogle /></a>
-        <a href="">< FaFacebook /></a>
+        <ul>
+          <li className="hide">
+        <a href="">< FaGoogle className="o-btn"/><p>Google</p></a></li>
+        <li className="hide"><a href="">< FaFacebook className="o-btn" /><p>Facebook</p></a></li></ul>
       </div>
       </div>
     </div>
