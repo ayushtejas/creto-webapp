@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap');
+
 
 *{
-
-
+  
 }
 
 .display{
@@ -10,10 +11,14 @@
 }
 
 
-
 .img-sty{
   padding-top: 5.6%;
   
+}
+
+.sign-quick{
+  color: #b6baba;
+  font-size: 15px;
 }
 
 .form{
@@ -33,19 +38,19 @@
   /* margin-left: 50%; */
 }
 
-.login-h1{
+.signup-h1{
   text-align: center;
   /* padding-left: 13rem; */
 }
 
-.login-h1 h1{
+.signup-h1 h1{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-weight: bold;
   color: #000000;
+  font-weight: bold;
 }
 
-.loginform{
+.signupform{
   /* width: 50%; */
   align-items: center;
   /* padding-left: 50%; */
@@ -75,15 +80,22 @@
   transform: scale(1.2, 1.1);
 }
 
-.forget:hover{
-  text-decoration: underline;
+.dob h2{
+  text-align: left;
+  padding-left: 4rem;
+  font-size: 15px;
+  color: #b6baba;
 }
 
-.login-btn{
-  padding: 5%;
-  margin-right: auto;
-  text-align: center;
+
+
+.gender h2{
+  text-align: left;
+  padding-left: 4rem;
+  font-size: 15px;
+  color: #b6baba;
 }
+
 
 .signup-btn{
   
@@ -92,59 +104,25 @@
   text-align: center;
 }
 
-.login-btn button{
+
+
+.signup-btn button{
   padding: 2% 5%;
   border: none;
   text-align: center;
   margin: auto;
-  background: var(--main-color);
+  color: white;
+  background: #42b72A;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   font-size: 1rem;
+  font-weight: bold;
   transition: all 0.4s ease;
 }
 
-.log-via{
-  font-size: 1.5rem;
-  color: #b6baba;
-}
 
-.signup-btn a{
-  display: block;
-    width: auto;
-    height: 25px;
-    background: #42b72A;
-    padding: 10px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    line-height: 25px;
-}
-
-.login-btn button:hover {
+.signup-btn button:hover {
   letter-spacing: .2rem;
 }
 
-.signup-btn a:hover {
-  letter-spacing: .2rem;
-  
-}
-
-.oAuth-btn{
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin: auto;
-}
-.oAuth-btn ul li {
-  display: inline-block;
-  padding: 2%;
-} 
-.oAuth-btn ul{
-  padding: 0%;
-}
-.oAuth-btn a{
-  font-size: 2rem;
-  
-}
 

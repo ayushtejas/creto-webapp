@@ -2,9 +2,17 @@ import React from "react";
 import { FaGoogle, FaFacebook } from "react-icons/fa";
 
 
+
+  
+
 function LoginForm(){
+  
+
+  
   return(
-    <div>
+   <div className="outer">
+    <div className="container display">
+      <div className="img-sty"><img src="http://creto.in/assets/images/banner/banner04.png" alt=""/></div>
     <div className="form">
     <div className="form-container">
       <div className="login-h1">
@@ -21,15 +29,25 @@ function LoginForm(){
           <button type="submit" >Login</button>
         </div>
       </div>
+      <div>
+        <a href="#" className="forget">Forgot Password?</a>
+      </div>
+      <br/>
+      <div className="log-via">or Login via</div>
       <div className="oAuth-btn">
         <ul>
           <li className="hide">
-        <a href="">< FaGoogle className="o-btn"/><p>Google</p></a></li>
-        <li className="hide"><a href="">< FaFacebook className="o-btn" /><p>Facebook</p></a></li></ul>
+        <a href="">< FaGoogle className="o-btn"/></a></li>
+        <li className="hide"><a href="">< FaFacebook className="o-btn" /></a></li></ul>
       </div>
+      <hr/>
+      <div className="signup-btn">
+      <a href="./signup">Create New Account</a>
+        </div>
       </div>
     </div>
 	</div>
+  </div>
   )
 };
 
