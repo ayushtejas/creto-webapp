@@ -299,22 +299,25 @@ a {
 }
 
 .products .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  gap: 2rem;
-  padding: 2% 5%;
+  /* display: flex; */
+  /* grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr)); */
+  /* gap: 2rem; */
+  padding: 2% ;
 }
-
+.products .box-container ul li{
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  padding: 2%;
+}
 .products .box-container .box {
   text-align: center;
   border: var(--border);
-  padding: 0;
-  box-sizing: border-box;
-  margin: 0;
   outline: none;
   text-decoration: none;
   text-transform: capitalize;
-  transition: .2s linear;
+  transition: .2s ease;
+  width: 25rem;
 }
 
 .products .box-container .box .icons a {
@@ -402,6 +405,7 @@ a {
   font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   text-transform: capitalize;
+  margin: auto;
   transition: .2s linear;
 }
 
@@ -438,17 +442,22 @@ a {
   padding: 1rem 0;
   line-height: 1.8;
 }
-
-.blogs .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+.blogs .box-container{
+  text-align: center;
+  padding: 1%;
+  margin: auto;
+}
+.blogs .box-container ul li{
+  display: inline-block;
+  padding: 2%;
+  /* grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); */
+  /* gap: 2rem; */
 }
 
 .blogs .box-container .box {
   border: var(--border);
+  width: 25rem;
 }
-
 .blogs .box-container .box .image {
   height: 25rem;
   overflow: hidden;
@@ -470,8 +479,9 @@ a {
 }
 
 .blogs .box-container .box .content .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 1.5;
+  padding: 3%;
   color: #fff;
 }
 
@@ -483,11 +493,11 @@ a {
   color: var(--main-color);
   display: block;
   padding-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .blogs .box-container .box .content p {
-  font-size: 1.6rem;
+  font-size: 1rem;
   line-height: 1.8;
   color: #ccc;
   padding: 1rem 0;
@@ -595,5 +605,35 @@ a {
 
   .btn:hover {
     letter-spacing: .1rem;
+  }
+  .heading{
+    font-size: 2rem;
+  }
+  .about .row .image{
+    text-align: center;
+  }
+  .about .row .image img {
+    width: 80%;
+  }
+  .products .box-container ul {
+    padding: 0;
+    text-align: center;
+  }
+  .products .box-container ul li{
+    padding: 1%;
+    text-align: center;
+  }
+  .products .box-container .box {
+    width: 20rem;
+  }
+  .box{
+    margin-bottom: 2rem;
+  }
+  .blogs .box-container ul{
+    padding: 0%;
+    text-align: center;
+  }
+  .blogs .box-container .box {
+    width: 20rem;
   }
 }

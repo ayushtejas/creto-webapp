@@ -6,14 +6,18 @@
 }
 
 .display{
-  display: flex;  
+  display: flex; 
+}
+
+.display > *{
+  flex:1 1 auto;
+  
 }
 
 
 
 .img-sty{
-  padding-top: 5.6%;
-  
+  padding: auto;  
 }
 
 .form{
@@ -148,3 +152,11 @@
   
 }
 
+@media (max-width: 786px) {
+  .img-sty{
+    display: none;
+  }
+  .form-container {
+    width: 60%;
+  }
+}
