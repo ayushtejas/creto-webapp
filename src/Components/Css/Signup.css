@@ -80,17 +80,39 @@
   border-bottom: 2px yellow solid;
   transform: scale(1.2, 1.1);
 }
+.dob{
+  padding: 5%;
+  padding-bottom: 0;
+}
 
 .dob h2{
-  text-align: left;
-  padding-left: 4rem;
+  text-align: center;
+  /* padding-left: 4rem; */
   font-size: 15px;
   color: #b6baba;
 }
 
+.dmy{
+  /* display: flex; */
+  list-style: none;
+  padding-left: 0%;
+}
+
+.date ul li{
+    padding: 1rem;
+    display: inline-block;
+    /* width: 5rem; */
+}
+.dmy input{
+  width: 5rem;
+  height: 1.5rem;
+}
+.gender{
+  text-align: center;
+}
 .gender h2{
-  text-align: left;
-  padding-left: 4rem;
+  /* text-align: left; */
+  /* padding-left: 4rem; */
   font-size: 15px;
   color: #b6baba;
 }
@@ -124,4 +146,8 @@
   letter-spacing: .2rem;
 }
 
-
+@media (max-width: 700px) {
+  .form-container{
+    padding: 1rem;
+  }
+}

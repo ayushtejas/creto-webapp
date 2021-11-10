@@ -53,7 +53,7 @@ function Header() {
         <li><a href="#head" onClick={Scroll} >Home</a></li>
         <li><a href="#service" onClick={Scroll}>About Us</a></li>
         <li><a href="#service" onClick={Scroll}>Products</a></li>
-        <li><a href="#service" onClick={Scroll}>Login</a></li>
+        <li><a href="/login" onClick={Scroll}>Login</a></li>
       </ul>
       </div>
     </div>

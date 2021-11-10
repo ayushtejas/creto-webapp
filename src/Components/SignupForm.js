@@ -29,7 +29,20 @@ function SignupForm(){
         </div>
         <div className="dob">
           <h2>Date of Birth</h2>
-          <DatePicker onChange={onChange} value={value} />
+          <div className="date">
+            <ul className="dmy">
+              <li>
+                <input type="text" placeholder="DD"/>
+              </li>
+              <li>
+                <input type="text" placeholder="MM"/>
+              </li>
+              <li>
+                <input type="text" placeholder="YYYY"/>
+              </li>
+            </ul>
+          </div>
+          {/* <DatePicker onChange={onChange} value={value} /> */}
         </div>
         <div className="gender">
           <h2>Gender</h2>
